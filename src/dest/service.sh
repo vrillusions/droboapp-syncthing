@@ -7,7 +7,7 @@
 
 framework_version="2.1"
 name="syncthing"
-version="0.14.16"
+version="1.2.1"
 description="Syncthing"
 depends=""
 webui=":8384/"

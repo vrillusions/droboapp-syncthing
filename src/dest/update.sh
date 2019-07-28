@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
-#
-# empty update script
+
+prog_dir="$(dirname "$(realpath "${0}")")"
+/bin/sh "${prog_dir}/service.sh" stop

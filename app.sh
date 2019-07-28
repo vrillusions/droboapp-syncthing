@@ -1,7 +1,7 @@
 
 ### syncthing ###
 _build_syncthing() {
-  local VERSION="0.14.16"
+  local VERSION="1.2.1"
   local FOLDER="syncthing-linux-arm-v${VERSION}"
   local FILE="${FOLDER}.tar.gz"
   local URL="https://github.com/syncthing/syncthing/releases/download/v${VERSION}/${FILE}"
